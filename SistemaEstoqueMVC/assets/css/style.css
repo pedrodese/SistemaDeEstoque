@@ -1,0 +1,95 @@
+body{
+    margin: 0;
+}
+
+
+
+.container{
+    max-width: 1000px;
+    margin: auto;
+}
+nav ul,
+nav ul li{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.header{
+    background-color: #232423;
+    margin-bottom: 20px;
+    height: 50px;
+}
+.header nav{
+    max-width: 1000px;
+}
+.header li{
+    display: inline-block;
+    height: 40px;
+    line-height: 50px;
+}
+.header li a{
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.header li a:hover{
+    background-color:#696b69 ;
+}
+table a{
+    color: blue;
+    text-decoration: none;
+}
+table a:hover{
+    text-decoration: underline;
+}
+
+table tr:hover td{
+    background-color: #EEE;
+}
+
+table th{
+    padding: 5px;
+}
+table td{
+    border: 1px solid #DDDDDD;
+    padding: 5px;
+}
+#busca{
+    outline: 0;
+    border: 0;
+}
+
+.form input[type=text],
+.form select,
+.form textarea {
+    width: 100%;
+    height: 35px;
+    font-size: 13px;
+    padding-left: 10px;
+    border: 2px solid #DDD;
+    outline: 0;
+}
+
+.form input[type=submit]{
+    background-color: #cccccc;
+    padding: 5px 10px;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: bold;
+}
+.warning{
+    border: 1px solid #FF0000;
+    background-color: #FF5555;
+    padding: 10px;
+    font-size: 14px;
+    color: #000;
+    margin-bottom: 10px;
+}
+.stockLogo{
+    text-decoration: none;
+    color: white;
+    margin-left: 20px;
+    margin-right: 40px;
+}
